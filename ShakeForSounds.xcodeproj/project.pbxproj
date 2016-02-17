@@ -12,14 +12,13 @@
 		C9C643471C7416F000E04618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C643451C7416F000E04618 /* Main.storyboard */; };
 		C9C643491C7416F000E04618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C643481C7416F000E04618 /* Assets.xcassets */; };
 		C9C6434C1C7416F000E04618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C6434A1C7416F000E04618 /* LaunchScreen.storyboard */; };
-		C9C6435B1C74174200E04618 /* rm_wubba.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643531C74174200E04618 /* rm_wubba.wav */; };
-		C9C6435C1C74174200E04618 /* rm_wrecked.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643541C74174200E04618 /* rm_wrecked.wav */; };
-		C9C6435D1C74174200E04618 /* rm_tinyrick.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643551C74174200E04618 /* rm_tinyrick.wav */; };
-		C9C6435E1C74174200E04618 /* rm_showme.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643561C74174200E04618 /* rm_showme.wav */; };
-		C9C6435F1C74174200E04618 /* rm_rubber.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643571C74174200E04618 /* rm_rubber.wav */; };
-		C9C643611C74174200E04618 /* rm_myman.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643591C74174200E04618 /* rm_myman.wav */; };
-		C9C643621C74174200E04618 /* rm_ilike.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C6435A1C74174200E04618 /* rm_ilike.wav */; };
-		C9C643641C7422AD00E04618 /* rm_shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C643631C7422AD00E04618 /* rm_shirt.jpg */; };
+		C9C6436C1C74262600E04618 /* rm_wubba.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643651C74262600E04618 /* rm_wubba.wav */; };
+		C9C6436D1C74262600E04618 /* rm_wrecked.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643661C74262600E04618 /* rm_wrecked.wav */; };
+		C9C6436E1C74262600E04618 /* rm_tinyrick.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643671C74262600E04618 /* rm_tinyrick.wav */; };
+		C9C6436F1C74262600E04618 /* rm_showme.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643681C74262600E04618 /* rm_showme.wav */; };
+		C9C643701C74262600E04618 /* rm_rubber.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643691C74262600E04618 /* rm_rubber.wav */; };
+		C9C643711C74262600E04618 /* rm_myman.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C6436A1C74262600E04618 /* rm_myman.wav */; };
+		C9C643721C74262600E04618 /* rm_ilike.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C6436B1C74262600E04618 /* rm_ilike.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +29,13 @@
 		C9C643481C7416F000E04618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C6434B1C7416F000E04618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9C6434D1C7416F000E04618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C643531C74174200E04618 /* rm_wubba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_wubba.wav; path = ../../../../Downloads/rm_wubba.wav; sourceTree = "<group>"; };
-		C9C643541C74174200E04618 /* rm_wrecked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_wrecked.wav; path = ../../../../Downloads/rm_wrecked.wav; sourceTree = "<group>"; };
-		C9C643551C74174200E04618 /* rm_tinyrick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_tinyrick.wav; path = ../../../../Downloads/rm_tinyrick.wav; sourceTree = "<group>"; };
-		C9C643561C74174200E04618 /* rm_showme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_showme.wav; path = ../../../../Downloads/rm_showme.wav; sourceTree = "<group>"; };
-		C9C643571C74174200E04618 /* rm_rubber.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_rubber.wav; path = ../../../../Downloads/rm_rubber.wav; sourceTree = "<group>"; };
-		C9C643591C74174200E04618 /* rm_myman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_myman.wav; path = ../../../../Downloads/rm_myman.wav; sourceTree = "<group>"; };
-		C9C6435A1C74174200E04618 /* rm_ilike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rm_ilike.wav; path = ../../../../Downloads/rm_ilike.wav; sourceTree = "<group>"; };
-		C9C643631C7422AD00E04618 /* rm_shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rm_shirt.jpg; sourceTree = "<group>"; };
+		C9C643651C74262600E04618 /* rm_wubba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_wubba.wav; sourceTree = "<group>"; };
+		C9C643661C74262600E04618 /* rm_wrecked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_wrecked.wav; sourceTree = "<group>"; };
+		C9C643671C74262600E04618 /* rm_tinyrick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_tinyrick.wav; sourceTree = "<group>"; };
+		C9C643681C74262600E04618 /* rm_showme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_showme.wav; sourceTree = "<group>"; };
+		C9C643691C74262600E04618 /* rm_rubber.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_rubber.wav; sourceTree = "<group>"; };
+		C9C6436A1C74262600E04618 /* rm_myman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_myman.wav; sourceTree = "<group>"; };
+		C9C6436B1C74262600E04618 /* rm_ilike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_ilike.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +74,13 @@
 				C9C643481C7416F000E04618 /* Assets.xcassets */,
 				C9C6434A1C7416F000E04618 /* LaunchScreen.storyboard */,
 				C9C6434D1C7416F000E04618 /* Info.plist */,
-				C9C643531C74174200E04618 /* rm_wubba.wav */,
-				C9C643541C74174200E04618 /* rm_wrecked.wav */,
-				C9C643631C7422AD00E04618 /* rm_shirt.jpg */,
-				C9C643551C74174200E04618 /* rm_tinyrick.wav */,
-				C9C643561C74174200E04618 /* rm_showme.wav */,
-				C9C643571C74174200E04618 /* rm_rubber.wav */,
-				C9C643591C74174200E04618 /* rm_myman.wav */,
-				C9C6435A1C74174200E04618 /* rm_ilike.wav */,
+				C9C643651C74262600E04618 /* rm_wubba.wav */,
+				C9C643661C74262600E04618 /* rm_wrecked.wav */,
+				C9C643671C74262600E04618 /* rm_tinyrick.wav */,
+				C9C643681C74262600E04618 /* rm_showme.wav */,
+				C9C643691C74262600E04618 /* rm_rubber.wav */,
+				C9C6436A1C74262600E04618 /* rm_myman.wav */,
+				C9C6436B1C74262600E04618 /* rm_ilike.wav */,
 			);
 			path = ShakeForSounds;
 			sourceTree = "<group>";
@@ -146,17 +143,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C643721C74262600E04618 /* rm_ilike.wav in Resources */,
 				C9C6434C1C7416F000E04618 /* LaunchScreen.storyboard in Resources */,
-				C9C643641C7422AD00E04618 /* rm_shirt.jpg in Resources */,
-				C9C643611C74174200E04618 /* rm_myman.wav in Resources */,
-				C9C6435F1C74174200E04618 /* rm_rubber.wav in Resources */,
+				C9C643701C74262600E04618 /* rm_rubber.wav in Resources */,
 				C9C643491C7416F000E04618 /* Assets.xcassets in Resources */,
-				C9C6435D1C74174200E04618 /* rm_tinyrick.wav in Resources */,
+				C9C6436E1C74262600E04618 /* rm_tinyrick.wav in Resources */,
 				C9C643471C7416F000E04618 /* Main.storyboard in Resources */,
-				C9C6435C1C74174200E04618 /* rm_wrecked.wav in Resources */,
-				C9C6435B1C74174200E04618 /* rm_wubba.wav in Resources */,
-				C9C6435E1C74174200E04618 /* rm_showme.wav in Resources */,
-				C9C643621C74174200E04618 /* rm_ilike.wav in Resources */,
+				C9C643711C74262600E04618 /* rm_myman.wav in Resources */,
+				C9C6436D1C74262600E04618 /* rm_wrecked.wav in Resources */,
+				C9C6436C1C74262600E04618 /* rm_wubba.wav in Resources */,
+				C9C6436F1C74262600E04618 /* rm_showme.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
