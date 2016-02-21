@@ -24,9 +24,13 @@ class ViewController: UIViewController {
 
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
+        var currentNumber = 0
+        
         if event!.subtype == UIEventSubtype.MotionShake {
             
             var randomNumber = Int(arc4random_uniform(UInt32(array.count)))
+            
+            if randomNumber != currentNumber {
             
             var audioPath = NSBundle.mainBundle().pathForResource(array[randomNumber], ofType: "wav")
             
@@ -37,11 +41,51 @@ class ViewController: UIViewController {
             try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath!))
             
             player.play()
+                
+            currentNumber = randomNumber
             
             }catch{
             //process errors here
             }
             
+            } else if randomNumber == currentNumber && currentNumber <= 5 {
+                
+                var audioPath = NSBundle.mainBundle().pathForResource(array[randomNumber + 1], ofType: "wav")
+                
+                var error: NSError? = nil
+                
+                do {
+                    
+                    try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath!))
+                    
+                    player.play()
+                    
+                    currentNumber = randomNumber
+                    
+                }catch{
+                    //process errors here
+                }
+                
+            } else if randomNumber == currentNumber && currentNumber == 6 {
+                
+                var audioPath = NSBundle.mainBundle().pathForResource(array[randomNumber - 1], ofType: "wav")
+                
+                var error: NSError? = nil
+                
+                do {
+                    
+                    try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath!))
+                    
+                    player.play()
+                    
+                    currentNumber = randomNumber
+                    
+                }catch{
+                    //process errors here
+                }
+                
+            } 
+        
         }
     }
     

@@ -19,6 +19,7 @@
 		C9C643701C74262600E04618 /* rm_rubber.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C643691C74262600E04618 /* rm_rubber.wav */; };
 		C9C643711C74262600E04618 /* rm_myman.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C6436A1C74262600E04618 /* rm_myman.wav */; };
 		C9C643721C74262600E04618 /* rm_ilike.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9C6436B1C74262600E04618 /* rm_ilike.wav */; };
+		C9C643BD1C7A19FF00E04618 /* rm_shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C643BC1C7A19FF00E04618 /* rm_shirt.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C9C643691C74262600E04618 /* rm_rubber.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_rubber.wav; sourceTree = "<group>"; };
 		C9C6436A1C74262600E04618 /* rm_myman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_myman.wav; sourceTree = "<group>"; };
 		C9C6436B1C74262600E04618 /* rm_ilike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rm_ilike.wav; sourceTree = "<group>"; };
+		C9C643BC1C7A19FF00E04618 /* rm_shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rm_shirt.jpg; path = ../rm_shirt.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				C9C643691C74262600E04618 /* rm_rubber.wav */,
 				C9C6436A1C74262600E04618 /* rm_myman.wav */,
 				C9C6436B1C74262600E04618 /* rm_ilike.wav */,
+				C9C643BC1C7A19FF00E04618 /* rm_shirt.jpg */,
 			);
 			path = ShakeForSounds;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C643721C74262600E04618 /* rm_ilike.wav in Resources */,
+				C9C643BD1C7A19FF00E04618 /* rm_shirt.jpg in Resources */,
 				C9C6434C1C7416F000E04618 /* LaunchScreen.storyboard in Resources */,
 				C9C643701C74262600E04618 /* rm_rubber.wav in Resources */,
 				C9C643491C7416F000E04618 /* Assets.xcassets in Resources */,
@@ -312,6 +316,7 @@
 				C9C643521C7416F000E04618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
