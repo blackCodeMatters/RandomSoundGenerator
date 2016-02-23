@@ -15,16 +15,17 @@ class ViewController: UIViewController {
     
     var array = ["rm_wubba", "rm_wrecked", "rm_tinyrick", "rm_showme", "rm_rubber", "rm_myman", "rm_ilike"]
 
+    var currentNumber = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
+        
     }
 
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
-        
-        var currentNumber = 0
         
         if event!.subtype == UIEventSubtype.MotionShake {
             
@@ -50,7 +51,7 @@ class ViewController: UIViewController {
             
             } else if randomNumber == currentNumber && currentNumber <= 5 {
                 
-                var audioPath = NSBundle.mainBundle().pathForResource(array[randomNumber + 1], ofType: "wav")
+                var audioPath = NSBundle.mainBundle().pathForResource(array[6], ofType: "wav")
                 
                 var error: NSError? = nil
                 
@@ -68,7 +69,7 @@ class ViewController: UIViewController {
                 
             } else if randomNumber == currentNumber && currentNumber == 6 {
                 
-                var audioPath = NSBundle.mainBundle().pathForResource(array[randomNumber - 1], ofType: "wav")
+                var audioPath = NSBundle.mainBundle().pathForResource(array[4], ofType: "wav")
                 
                 var error: NSError? = nil
                 
